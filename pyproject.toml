@@ -1,0 +1,23 @@
+[project]
+name = "smart-induction-heads"
+version = "0.1.0"
+requires-python = "==3.12.5"
+dependencies = [
+    "accelerate==1.15.0",
+    "einops==0.8.1",
+    "matplotlib==3.10.5",
+    "nnsight==0.4.11",
+    "numpy==2.3.2",
+    "scikit-learn==1.7.1",
+    "scipy==1.18.1",
+    "torch==2.8.0",
+    "transformers==4.55.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.7.21"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "smart_induction_heads"
+module-root = ""

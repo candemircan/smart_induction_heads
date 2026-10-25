@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.DS_Store
+.claude/
+data/*
+!data/language.json
+figures/
+logs/
+paper/
+poster/
+poster_example_*/
+circuit/
+talk/
